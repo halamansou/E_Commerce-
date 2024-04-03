@@ -193,3 +193,38 @@ button:hover{
 /* end new section */
 
 
+/* start product section  */
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product:hover img{
+    opacity: 0.5;
+}
+
+.product .puy_btn{
+    background-color: #fb774b;
+    transform: translateY(20);
+    opacity: 0;
+    transition: 0.3s all;
+}
+
+.product:hover .puy_btn{
+
+    transform: translateY(0);
+    opacity: 1;
+   
+}
+.star{
+    padding: 10px 0;
+}
+.star i{
+    font-size: 0.8rem;
+    color: goldenrod;
+}
+/* end product section  */
