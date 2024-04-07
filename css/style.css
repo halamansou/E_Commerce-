@@ -314,3 +314,26 @@ footer .copyright a:hover{
 
 
 
+/* blog */
+#blog-container .post .post-img{
+    overflow: hidden;
+    cursor: pointer;
+} 
+
+#blog-container .post img{
+    transition: 0.3s ease;
+}
+
+#blog-container .post:hover img{
+    transform: scale(1.3) rotate(-10deg);
+    opacity: 0.8;
+
+}
+
+#blog-container .post h3{
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+#blog-container .post:hover h3 {
+    color: coral;
+}
